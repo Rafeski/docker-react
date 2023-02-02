@@ -14,7 +14,7 @@ variables:
   imageRepository: 'rafeskidockerreact'
   containerRegistry: 'innodocker.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
-  tag: '$(Build.BuildId)'
+  tag: 'Docker-react_b$(Build.BuildId)'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
